@@ -5,7 +5,7 @@ require 'parallel'
 require 'json'
 
 @browsers = JSON.load(open('browsers.json'))
-@parallel_limit = ENV["nodes"] || 1
+@parallel_limit = ENV["nodes"] || 5
 @parallel_limit = @parallel_limit.to_i
 
 task :cucumber do
