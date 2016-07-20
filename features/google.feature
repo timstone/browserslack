@@ -6,4 +6,4 @@ Background:
 Scenario: Search for a term
   When I fill in "q" found by "name" with "BrowserStack"
   And I submit
-  Then I should see title "BrowserStack - Google zoeken"
+  Then I should see title "BrowserStack"

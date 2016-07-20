@@ -42,6 +42,7 @@ gem 'rspec'
 gem 'capybara'
 gem 'browserstack-local'
 gem 'parallel_tests'
+gem 'parallel'
 
 gem 'web-console', group: :development
 
