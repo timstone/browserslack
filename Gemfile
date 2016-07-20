@@ -32,6 +32,36 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'puma'
+
+gem 'curb', '~> 0.9.3'
+
+gem 'cucumber'
+gem 'selenium-webdriver'
+gem 'rspec'
+gem 'capybara'
+gem 'browserstack-local'
+gem 'parallel_tests'
+
+gem 'web-console', group: :development
+
+group :development, :test do
+	gem 'byebug'
+	gem 'spring'
+	gem 'spring-commands-rspec'
+	gem 'rspec-rails'
+	gem 'factory_girl_rails'
+end
+
+group :test do
+	gem 'capybara'
+	gem 'cucumber-rails', require: false
+	gem 'database_cleaner'
+end
+
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
