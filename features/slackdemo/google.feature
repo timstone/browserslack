@@ -1,3 +1,4 @@
+@slackdemo
 Feature: Google can search
 
 Background:
